@@ -1,5 +1,4 @@
 import json
-#import re
 import requests
 from fake_headers import Headers
 from bs4 import BeautifulSoup
@@ -41,7 +40,7 @@ for item in vac:
             'name':vac_name,
             'salary':salary,
             'employer':employer,
-            #'location':location,
+            'location':location,
             'description':description,
         }
         result.append(res_this) 
